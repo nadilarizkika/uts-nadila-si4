@@ -28,12 +28,20 @@
     <!-- Sidebar Offcanvas (kosong) -->
     <div class="offcanvas offcanvas-end" tabindex="-1" id="sideBarCanvas">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title"></h5>
+            <h5 class="offcanvas-title">UTS Laravel</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
         </div>
 
         <div class="offcanvas-body">
-            <!-- masih kosong -->
+            <!-- Menu -->
+            <p>Home</p>
+            <p>Produk</p>
+
+            <!-- Search -->
+            <form class="d-flex mt-3">
+                <input class="form-control me-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-success" type="button">Search</button>
+            </form>
         </div>
     </div>
 
