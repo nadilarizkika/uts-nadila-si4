@@ -34,7 +34,7 @@
 
         <div class="offcanvas-body">
             <a href="/" class="d-block text-decoration-none text-secondary">Home</a>
-            <a href="/produk" class="d-block text-decoration-none text-secondary">Produk</a>
+            <a href="/produk" class="d-block text-decoration-none text-secondary mt-2">Produk</a>
 
             <form class="d-flex mt-3">
                 <input class="form-control me-2" type="search" placeholder="Search">

@@ -59,7 +59,12 @@
 
                     <div class="col-md-4">
                         <label class="form-label mb-0">Jenis Produk</label>
-                        <input type="text" name="jenis" class="form-control" placeholder="Input Jenis Produk" required>
+                        <select name="jenis" class="form-select text-secondary" required>
+                            <option value="">Pilih Produk</option>
+                            @for ($i = 0; $i < count($jenisList); $i++)
+                                <option value="{{ $jenisList[$i] }}">{{ $jenisList[$i] }}</option>
+                            @endfor
+                        </select>
                     </div>
                 </div>
 
