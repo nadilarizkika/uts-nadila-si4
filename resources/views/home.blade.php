@@ -33,12 +33,9 @@
         </div>
 
         <div class="offcanvas-body">
-            <!-- Menu -->
-            <a href="/" class="d-block text-decoration-none text-secondary {{ request()->path() === '/' ? 'text-dark' : '' }}">Home</a>
-            
-            <a href="/produk" class="d-block text-decoration-none text-secondary mt-2 {{ request()->path() === 'produk' ? 'text-dark' : '' }}">Produk</a>
+            <a href="/" class="d-block text-decoration-none text-secondary">Home</a>
+            <a href="/produk" class="d-block text-decoration-none text-secondary">Produk</a>
 
-            <!-- Search -->
             <form class="d-flex mt-3">
                 <input class="form-control me-2" type="search" placeholder="Search">
                 <button class="btn btn-outline-success" type="button">Search</button>
